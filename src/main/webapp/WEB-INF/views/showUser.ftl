@@ -24,6 +24,6 @@
     </tr>
 </table>
 <br>
-<a href="/TestWebApplication_war/users">Back</a>
+<a href="/users">Back</a>
 </body>
 </html>

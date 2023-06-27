@@ -11,17 +11,17 @@
     </tr>
     <#list users as user>
         <tr>
-            <td><a href="/TestWebApplication_war/user/${user.id}">${user.id}</a></td>
+            <td><a href="/user/${user.id}">${user.id}</a></td>
             <td>${user.name}</td>
             <td>${user.email}</td>
             <td>${user.age}</td>
-            <td><a href="/TestWebApplication_war/delete/${user.id}">Delete</a> </td>
-            <td><a href="/TestWebApplication_war/update/${user.id}">Update</a> </td>
+            <td><a href="/delete/${user.id}">Delete</a> </td>
+            <td><a href="/update/${user.id}">Update</a> </td>
         </tr>
     </#list>
 </table>
 
-<a href="/TestWebApplication_war/addUser">Create user</a>
+<a href="/addUser">Create user</a>
 </body>
 <head>
     <meta charset="UTF-8">
